@@ -1,0 +1,96 @@
+
+/* ********************* */
+/* font */
+/* ********************* */
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+
+
+/* ********************* */
+/* variable */
+/* ********************* */
+
+:root {
+   /* orange primary color */
+  --clr-orange-1: #e67e22;
+  --clr-orange-2: #ffb228; 
+  --clr-orange-3: #f45905;
+  --clr-orange-4: #c06014;
+  --clr-orange-5: #AA8F66;
+  --clr-orange-6: #ED9B40;
+  --clr-orange-7: #f15025;
+  --clr-orange-7: #d89156;
+  /* yellow primary color */
+  --clr-yellow-1: #FFFF82;
+  --clr-yellow-2: #ffd0a8;
+  --clr-yellow-3: #f7ea00;
+  /* blue primary color */
+  --clr-blue-1: #88d5e9;
+  --clr-blue-2: #6cc3d8;
+  --clr-blue-3: #1687a7;
+  --clr-blue-4: #04009a;
+  /* green primary color */
+  --clr-green-1: #4caf50;
+
+  /* white primary color */
+  --clr-white-1: #fafafa;
+  --clr-white-2: #fbf9fa;
+  --clr-white-3: #f4f4f4;
+  --clr-white-4: #fff;
+  --clr-white-5: #faf3e0;
+  --clr-white-6: #f8f5f1;
+  --clr-white-7: #fdf1d6;
+  --clr-white-7: #FFFF82;
+  /* black primary color */
+  --clr-black-1: #373331;
+  --clr-black-2: #000;
+  --clr-black-3: #333;
+  --clr-black-4: #63686e;
+  --clr-black-5: #272D2D;
+  /* red primary color */
+  --clr-red-1: #ce1212;
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --ff-primary-1: 'charm', cursive;
+  --ff-primary-2: 'calibri', sans-serif;
+  --ff-primary-3: Arial, Helvetica, sans-serif;
+  --transition-1: all 0.5s linear;
+  --transition-2: all 1.5s ease;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --lineHeight: 2rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+  /* Social media colors */
+  --clr-faceBook: #3b5998;
+  --clr-twitter: #00aced;
+  --clr-instagram: #517fa4;
+  --clr-googlePlus: #dd4b39;
+  --clr-linkedIn: #0e76a8;
+}
+
+/* ********************* */
+/* Global Styles */
+/* ********************* */
+
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--clr-black-2);
+}
+/* ********************* */
+/* page */
+/* ********************* */
+
+#clock{
+  font-family: var(--ff-primary-1);
+  font-size: 5rem;
+  color: var(--clr-green-1);
+}
